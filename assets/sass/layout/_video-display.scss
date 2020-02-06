@@ -1,0 +1,96 @@
+/*Barra info usuario*/
+.barra__user{
+    margin-top: 20px;
+}
+
+.barra__user-contenedor__usuario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &-imagen{
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;
+    }
+
+    &-datos{
+        padding-left: 18px;
+    }
+    &-datos__seguidores{
+        margin-bottom: 0 !important;
+        margin-top: 0px !important;
+    }
+
+    &-datos__nombre{
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+}
+
+
+
+
+
+.barra__user-contenedor__botones{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.barra__user-fila{
+    margin-left: 3%;
+    margin-right: 3%;
+    justify-content: space-between;
+}
+
+/*Display Videos*/
+.display__titulo-texto{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.display__videos{
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0 8%
+}
+
+.display__videos-video{
+
+    &__thumbnail{
+        width: 100%;
+    }
+
+    &__titulo{
+        margin-top: 15px !important;
+        margin-bottom: 0px !important;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    /*Barra info usuario*/
+    .barra__user{
+        margin-top: 20px;
+        padding-bottom: 15px;
+        border-bottom: solid lightgray 0.5px; 
+        &-contenedor__usuario-imagen{
+            width: 60px;
+            height: 60px;
+            border-radius: 100%;
+        }
+    }
+
+       
+
+    /*Display Videos*/
+    .display__videos{
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap-reverse;
+        margin: 0 5%;
+    }
+}

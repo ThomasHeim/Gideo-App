@@ -1,0 +1,14 @@
+.hero{
+    background-image: url(../img/image-banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 63px;
+    width: 100%;
+}
+
+@media (min-width: 768px) { 
+  .hero{
+      height: 215px;
+  }
+ }

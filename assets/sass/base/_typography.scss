@@ -1,0 +1,49 @@
+.menu__navbar-logo{
+    font-family: $futura-regular;
+    font-size: $xx-large;
+
+    &__sub{
+        font-family: $futura-regular;
+        font-size: $small;
+        position: absolute;
+    }
+}
+
+h2{
+    font-family: $montserrat;
+    font-weight: $font-bold;
+    font-size: $large;
+}
+
+h3{
+    font-family: $montserrat;
+    font-weight: $font-regular;
+    font-size: $x-large;
+}
+
+p{
+    font-family: $open-sans;
+    font-weight: $font-regular;
+    font-size: $medium;
+    color: grey;
+}
+
+.barra__user-contenedor__usuario-datos{
+    &__nombre{
+        font-size: $x-large;
+    }
+
+    &__seguidores{
+        font-size: $medium;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+
+    .barra__user-contenedor__usuario-datos{
+        &__nombre{
+            font-size: $large;
+        }
+    }
+}

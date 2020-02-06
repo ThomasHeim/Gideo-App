@@ -1,0 +1,18 @@
+.menu__navbar{
+    padding: 1.5rem 2.5rem;
+}
+
+.menu__navbar-contenido{
+    justify-content: flex-end;
+}
+
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    .menu__navbar{
+        padding: 0.8rem 5rem;
+    }
+    .menu__navbar-iconos li{
+        margin: auto 6px;
+    }
+ }
